@@ -354,7 +354,7 @@ const facilityImages: Record<string, string> = {
                             <div ref="galleryCarousel"
                                 class="flex overflow-x-auto snap-x snap-mandatory hide-scrollbar gap-3 px-6 scroll-smooth py-10 md:grid md:grid-cols-4 md:gap-6 md:px-0 md:overflow-visible md:py-16">
                                 <div v-for="(img, index) in activeBus?.gallery" :key="index" :class="[
-                                    'w-[calc((100%-24px)/3)] md:w-auto md:min-w-0 md:h-96 aspect-[3/4] md:aspect-auto rounded-2xl md:rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 group relative snap-start flex-shrink-0',
+                                    'w-[calc((100%-24px)/3)] md:w-auto md:min-w-0 md:h-96 aspect-[1/2] md:aspect-auto rounded-xl md:rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 group relative snap-start flex-shrink-0',
                                     index % 2 !== 0 ? 'translate-y-6 md:translate-y-8' : '-translate-y-6 md:-translate-y-8'
                                 ]">
                                     <img :src="img"

@@ -10,7 +10,7 @@ const { t } = useI18n()
                 <div class="lg:col-span-5 flex flex-col items-start">
                     <!-- Mobile: Dark Logo Box -->
                     <div
-                        class="lg:hidden w-16 h-16 bg-[#111847] rounded-2xl flex items-center justify-center mb-10 shadow-lg">
+                        class="lg:hidden w-16 h-16 rounded-2xl flex items-center justify-center mb-10 shadow-lg">
                         <NuxtImg src="/images/New Shantika Logo.png" alt="Shantika Logo"
                             class="h-10 w-auto brightness-200 contrast-200" />
                     </div>
