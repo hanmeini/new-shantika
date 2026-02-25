@@ -106,35 +106,41 @@ const getRegion = (city: string) => {
 <template>
     <section class="w-full px-6 md:px-28 py-20 bg-[#FAFAFA] flex flex-col gap-12">
         <!-- Agent Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
             <div v-for="agent in paginatedAgents" :key="agent.id" @click="openAgentDetail(agent)"
-                class="bg-white rounded-[20px] shadow-sm border border-gray-100 overflow-hidden flex flex-col transition-all hover:shadow-xl group cursor-pointer">
-                <div class="h-64 relative overflow-hidden">
+                class="bg-white rounded-[20px] shadow-sm border border-gray-100 overflow-hidden flex flex-row md:flex-col transition-all hover:shadow-xl group cursor-pointer h-auto md:h-full">
+                <!-- Image Section -->
+                <div class="w-2/5 md:w-full h-auto md:h-64 relative overflow-hidden shrink-0">
                     <NuxtImg :src="agent.thumbnail"
                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
-                    <div class="absolute top-4 left-4">
+                    <div class="absolute top-2 left-2 md:top-4 md:left-4">
                         <span
-                            class="px-3 py-1 bg-white/90 backdrop-blur-md rounded-full text-xs font-semibold text-text-dark-primary flex items-center gap-2">
-                            <PhosphorIcon name="map-pin" size="12" weight="bold" />
+                            class="px-2 py-0.5 md:px-3 md:py-1 bg-white/90 backdrop-blur-md rounded-full text-[10px] md:text-xs font-semibold text-text-dark-primary flex items-center gap-1 md:gap-2">
+                            <PhosphorIcon name="map-pin" size="10" md:size="12" weight="bold" />
                             {{ getRegion(agent.city) }}
                         </span>
                     </div>
                 </div>
 
-                <div class="p-6 space-y-4 flex-1 flex flex-col">
-                    <h3 class="text-xl font-bold text-text-dark-primary">{{ agent.name }}</h3>
+                <!-- Content Section -->
+                <div
+                    class="w-3/5 md:w-full p-4 md:p-6 space-y-2 md:space-y-4 flex flex-col justify-center md:justify-start">
+                    <h3 class="text-base md:text-xl font-bold text-text-dark-primary leading-tight">{{ agent.name }}
+                    </h3>
 
-                    <div class="space-y-3 flex-1">
-                        <div class="flex items-start gap-3">
-                            <PhosphorIcon name="map-pin" size="18"
+                    <div class="space-y-2 md:space-y-3">
+                        <div class="flex items-start gap-2 md:gap-3">
+                            <PhosphorIcon name="map-pin" size="14" md:size="18"
                                 class="text-text-dark-secondary mt-0.5 flex-shrink-0" />
-                            <p class="text-sm text-text-dark-secondary leading-relaxed font-light">
+                            <p
+                                class="text-[11px] md:text-sm text-text-dark-secondary leading-normal md:leading-relaxed font-light line-clamp-2 md:line-clamp-none">
                                 {{ agent.address }}
                             </p>
                         </div>
-                        <div class="flex items-center gap-3">
-                            <PhosphorIcon name="phone" size="18" class="text-text-dark-secondary flex-shrink-0" />
-                            <p class="text-sm text-text-dark-secondary font-light">
+                        <div class="flex items-center gap-2 md:gap-3">
+                            <PhosphorIcon name="phone" size="14" md:size="18"
+                                class="text-text-dark-secondary flex-shrink-0" />
+                            <p class="text-[11px] md:text-sm text-text-dark-secondary font-light">
                                 {{ agent.phone }}
                             </p>
                         </div>

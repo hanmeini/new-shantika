@@ -76,7 +76,7 @@ const stats = [
 </script>
 
 <template>
-    <section class="relative w-full min-h-[600px] md:h-screen bg-white flex flex-col px-4 md:px-10 py-6 md:py-10 z-10">
+    <section class="relative w-full h-screen bg-white flex flex-col px-4 md:px-10 py-6 md:py-10 z-10">
         <div class="relative w-full h-full rounded-[30px] md:rounded-[40px] flex flex-col items-center justify-center">
             <!-- Background/Overlay Concept -->
             <div class="absolute inset-0 z-0 overflow-hidden rounded-[30px] md:rounded-[40px]">
