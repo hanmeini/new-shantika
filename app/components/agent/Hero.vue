@@ -96,10 +96,10 @@ const stats = [
                     </p>
                 </div>
 
-                <div class="flex flex-wrap gap-10 md:gap-16">
-                    <div v-for="stat in stats" :key="stat.label" class="flex flex-col">
-                        <span class="text-4xl md:text-5xl font-bold text-white">{{ stat.value }}</span>
-                        <span class="text-lg md:text-xl font-light text-white/70">{{ stat.label }}</span>
+                <div class="flex flex-row items-start gap-8 md:gap-16 w-full overflow-x-auto no-scrollbar pb-2">
+                    <div v-for="stat in stats" :key="stat.label" class="flex flex-col shrink-0">
+                        <span class="text-3xl md:text-5xl font-bold text-white">{{ stat.value }}</span>
+                        <span class="text-sm md:text-xl font-light text-white/70">{{ stat.label }}</span>
                     </div>
                 </div>
 
