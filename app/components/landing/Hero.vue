@@ -55,25 +55,25 @@ const localePath = useLocalePath()
                     <div class="flex -space-x-3 shrink-0">
                         <div
                             class="w-8 h-8 md:w-10 md:h-10 rounded-full border-2 border-white overflow-hidden bg-blue-100">
-                            <NuxtImg src="/icons/Jaxon Maddox.svg" alt=""
-                                class="w-full h-full object-cover" loading="lazy" />
+                            <NuxtImg src="/icons/Jaxon Maddox.svg" alt="" class="w-full h-full object-cover"
+                                loading="lazy" />
                         </div>
                         <div
                             class="w-8 h-8 md:w-10 md:h-10 rounded-full border-2 border-white overflow-hidden bg-pink-100">
-                            <NuxtImg src="/icons/Jaxon Maddox.svg" alt=""
-                                class="w-full h-full object-cover" loading="lazy" />
+                            <NuxtImg src="/icons/Jaxon Maddox.svg" alt="" class="w-full h-full object-cover"
+                                loading="lazy" />
                         </div>
                         <div
                             class="w-8 h-8 md:w-10 md:h-10 rounded-full border-2 border-white overflow-hidden bg-yellow-100">
-                            <NuxtImg src="/icons/Jaxon Maddox.svg" alt=""
-                                class="w-full h-full object-cover" loading="lazy" />
+                            <NuxtImg src="/icons/Jaxon Maddox.svg" alt="" class="w-full h-full object-cover"
+                                loading="lazy" />
                         </div>
                     </div>
                     <div>
                         <p class="font-bold text-gray-900 text-sm md:text-lg leading-tight">{{ t('hero.statsCount') }}
                         </p>
                         <p class="text-[10px] md:text-sm text-gray-500 font-medium leading-snug">{{ t('hero.statsLabel')
-                        }}</p>
+                            }}</p>
                     </div>
                 </div>
 
@@ -86,14 +86,14 @@ const localePath = useLocalePath()
                     <div class="flex items-center gap-3 md:gap-4">
                         <!-- Lihat Armada -->
                         <NuxtLink :to="localePath('/armada')"
-                            class="flex-1 inline-flex items-center justify-center gap-1.5 md:gap-2 bg-[#0A1131] hover:bg-[#060a1f] text-white text-xs md:text-base font-bold rounded-xl md:rounded-2xl px-3 py-2.5 md:px-6 md:py-3.5 transition-all shadow-lg active:scale-95">
+                            class="flex-1 inline-flex items-center justify-center gap-1.5 md:gap-2 bg-[#0A1131] hover:bg-[#060a1f] text-white text-xs md:text-base font-bold rounded-xl md:rounded-2xl px-3 py-2.5 md:px-6 md:py-3.5 transition-all shadow-lg hover:shadow-[#0A1131]/20 hover:-translate-y-1 active:scale-95">
                             {{ t('hero.ctaFleet') }}
                             <PhosphorIcon name="arrow-right" weight="bold" :size="16" />
                         </NuxtLink>
 
                         <!-- Tonton Video -->
                         <button
-                            class="flex-1 inline-flex items-center justify-center gap-1.5 md:gap-2 bg-white hover:bg-gray-50 text-[#0A1131] text-xs md:text-base font-bold rounded-xl md:rounded-2xl px-3 py-2.5 md:px-6 md:py-3.5 transition-all shadow-lg active:scale-95">
+                            class="flex-1 inline-flex items-center justify-center gap-1.5 md:gap-2 bg-white hover:bg-gray-50 text-[#0A1131] text-xs md:text-base font-bold rounded-xl md:rounded-2xl px-3 py-2.5 md:px-6 md:py-3.5 transition-all shadow-lg hover:shadow-black/5 hover:-translate-y-1 active:scale-95">
                             {{ t('hero.ctaVideo') }}
                             <PhosphorIcon name="play" weight="bold" :size="18" />
                         </button>
