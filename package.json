@@ -1,0 +1,24 @@
+{
+  "name": "new-shantika",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/image": "^2.0.0",
+    "@nuxtjs/i18n": "^10.2.3",
+    "gsap": "^3.14.2",
+    "nuxt": "^4.3.1",
+    "nuxt-phosphor-icons": "^2.3.3",
+    "vue": "^3.5.28",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.14.0"
+  }
+}

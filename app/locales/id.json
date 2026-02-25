@@ -1,0 +1,341 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "agent": "Agen",
+    "fleet": "Armada",
+    "article": "Artikel",
+    "route": "Rute",
+    "contact": "Kontak Kami"
+  },
+  "hero": {
+    "tagline": "Perjalanan Nyaman & Tepat Waktu",
+    "statsCount": "100+",
+    "statsLabel": "Penumpang Puas Bersama Shantika",
+    "description": "Kami menyediakan armada bus terbaik dengan fasilitas modern, pelayanan ramah, dan standar keamanan tinggi. Setiap perjalanan dirancang untuk memberi Anda kenyamanan maksimal, sehingga pengalaman perjalanan terasa lebih menyenangkan dan bebas khawatir.",
+    "ctaFleet": "Lihat Armada",
+    "ctaVideo": "Tonton Video"
+  },
+  "article": {
+    "title": "Berita & Artikel",
+    "loading": "Memuat artikel...",
+    "readMore": "Baca Selengkapnya"
+  },
+  "fleet": {
+    "hero": {
+      "badge": "Global Travel Agen",
+      "title": "Traveling Nyaman dengan {highlight}",
+      "highlight": "Armada Kami",
+      "description": "Kami menyediakan armada bus terbaik dengan fasilitas modern, pelayanan ramah, dan standar keamanan tinggi. Setiap perjalanan dirancang untuk memberi Anda kenyamanan maksimal, sehingga pengalaman perjalanan terasa lebih menyenangkan dan bebas khawatir.",
+      "stats": {
+        "provinces": {
+          "label": "Cakupan Nasional",
+          "value": "34 Provinsi"
+        },
+        "agents": {
+          "label": "Agen terdaftar New Shantika",
+          "value": "1000+"
+        }
+      },
+      "satisfied": {
+        "count": "100+",
+        "label": "Penumpang Puas Perjalanan Bersama Shantika"
+      }
+    },
+    "selection": {
+      "subtitle": "New Shantika Bus"
+    },
+    "title": "Armada Kami",
+    "loading": "Memuat armada...",
+    "capacity": "Kapasitas",
+    "facilities": "Fasilitas",
+    "buses": {
+      "sleeper": {
+        "name": "Sleeper Bus",
+        "description": "Bus bertingkat dua dengan desain modern dan ruang lebih luas. Menawarkan sensasi perjalanan berbeda dengan kenyamanan premium bagi penumpang."
+      },
+      "executivetop": {
+        "name": "Executive Top",
+        "description": "Armada berukuran sedang dengan kapasitas penumpang lebih fleksibel. Cocok untuk perjalanan rombongan kecil dengan kenyamanan tetap terjaga."
+      },
+      "executive": {
+        "name": "Executive",
+        "description": "Pilihan ekonomis namun tetap mengedepankan kenyamanan dan keselamatan perjalanan anda."
+      }
+    },
+    "badge": "100+ Armada Siap Melayani Anda",
+    "sections": {
+      "facilities": {
+        "title": "Fasilitas {bus}"
+      },
+      "additional": {
+        "title": "Informasi Tambahan",
+        "content": "New Shantika {bus} dilengkapi dengan {capacity} kursi yang dapat direbahkan sepenuhnya untuk memberikan kenyamanan maksimal. Setiap kursi memiliki port charger USB, layar hiburan pribadi, serta selimut dan bantal bersih. Penumpang juga mendapatkan snack box dan minuman gratis selama perjalanan. Untuk keamanan, bus dilengkapi GPS Tracking dan CCTV, serta ruang bagasi yang luas untuk barang bawaan. Estimasi waktu tempuh Semarang – Jakarta sekitar 8 jam, membuat perjalanan Anda lebih santai dan menyenangkan."
+      }
+    },
+    "labels": {
+      "rating": "{rating} dari 5.000+ penumpang",
+      "ratingDesc": "Lebih dari 5.000 penumpang telah memilih New Shantika untuk perjalanan nyaman, aman, dan penuh pengalaman menyenangkan.",
+      "price": "Mulai dari Rp {price}",
+      "priceDesc": "Perkiraan biaya perjalanan berdasarkan rute dan armada pilihan Anda. Harga akhir menyesuaikan ketersediaan.",
+      "capacity": "{capacity} Seat",
+      "capacityDesc": "Armada {bus} berkapasitas {capacity} seat, sesuai standar kenyamanan perjalanan penumpang.",
+      "model": "{model}",
+      "modelDesc": "Armada {model} yang modern dan terawat untuk kenyamanan maksimal."
+    }
+  },
+  "agent": {
+    "title": "Daftar Agen",
+    "loading": "Memuat agen...",
+    "operationalHours": "Jam Operasional"
+  },
+  "route": {
+    "title": "Rute Perjalanan",
+    "loading": "Memuat rute...",
+    "from": "Dari",
+    "to": "Ke",
+    "duration": "Durasi",
+    "price": "Harga",
+    "departure": "Waktu Keberangkatan"
+  },
+  "routesPage": {
+    "hero": {
+      "title": "Rute Perjalanan New Shantika",
+      "subtitle": "Temukan Perjalanan dengan mudah dari kota keberangkatan hingga tujuan Anda",
+      "departure": "Keberangkatan",
+      "destination": "Tujuan",
+      "date": "Pilih Tanggal",
+      "search": "Cari"
+    },
+    "content": {
+      "title": "Rute Perjalanan",
+      "agent": {
+        "title": "Agen Cirebon",
+        "address": "Jl. Tanggul Mas Tim. Raya No.138, Panggung Lor, Kec. Semarang Utara, Kota Semarang, Jawa Tengah 50176",
+        "phone": "098276242625"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Perjalanan nyaman dan terpercaya bersama Shantika.",
+    "pages": "Halaman",
+    "contact": "Kontak",
+    "social": "Sosial Media",
+    "copyright": "Semua hak dilindungi.",
+    "sitemap": "Peta Situs",
+    "learnMore": "Kenali Lebih Lanjut",
+    "help": "Bantuan",
+    "about": "Tentang Kami"
+  },
+  "features": {
+    "title": "Kenyamanan Adalah Prioritas Kami",
+    "subtitle": "Rasakan pengalaman perjalanan yang tak terlupakan dengan berbagai fasilitas unggulan kami.",
+    "list": [
+      {
+        "title": "Kursi Reclining yang Nyaman",
+        "description": "Istirahat lebih maksimal dengan kursi yang dapat direbahkan serta ruang kaki yang luas.",
+        "icon": "vibrate"
+      },
+      {
+        "title": "Sistem Hiburan Premium",
+        "description": "Tersedia Video on Demand dan Audio berkualitas untuk menemani perjalanan Anda.",
+        "icon": "monitor"
+      },
+      {
+        "title": "Fasilitas Pengisi Daya",
+        "description": "Tetap terhubung setiap saat dengan USB Port charging di setiap kursi.",
+        "icon": "battery-charging"
+      },
+      {
+        "title": "AC Selalu Dingin & Segar",
+        "description": "Sirkulasi udara yang terjaga memastikan kesegaran di sepanjang perjalanan.",
+        "icon": "thermometer-cold"
+      }
+    ]
+  },
+  "about": {
+    "titlePrefix": "Kenali",
+    "titleHighlight": "Shantika",
+    "titleSuffix": ", Temani Perjalanan Anda",
+    "description": "PO. New Shantika didirikan pada bulan Maret 2003. Garasi utama New Shantika berada di Ngabul, Kabupaten Jepara, Provinsi Jawa Tengah. New Shantika melayani beberapa rute perjalanan seperti Jepara-Jakarta dengan armada yang menyediakan fasilitas lengkap demi menjaga kenyamanan penumpang saat melakukan perjalanan.",
+    "features": [
+      {
+        "title": "DVD Player",
+        "description": "Hiburan sepanjang perjalanan dengan pemutar DVD.",
+        "icon": "disc"
+      },
+      {
+        "title": "Lokasi",
+        "description": "Informasi lokasi keberangkatan dan tujuan tersedia jelas.",
+        "icon": "map-pin"
+      },
+      {
+        "title": "AC",
+        "description": "Dilengkapi AC untuk menjaga kenyamanan penumpang.",
+        "icon": "snowflake"
+      },
+      {
+        "title": "Telepon",
+        "description": "Telepon darurat tersedia untuk kebutuhan mendesak.",
+        "icon": "phone-call"
+      },
+      {
+        "title": "Terminal Listrik",
+        "description": "Colokan listrik tersedia untuk mengisi daya perangkat Anda.",
+        "icon": "plug"
+      }
+    ]
+  },
+  "membership": {
+    "title": "Keuntungan Jadi {member} New Shantika",
+    "member": "Member",
+    "subtitle": "Dapatkan akses layanan eksklusif, harga terbaik, dan kemudahan pemesanan hanya dengan sekali daftar.",
+    "cta": "Bergabung Membership New Shantika",
+    "features": [
+      {
+        "title": "Pemesanan Online",
+        "description": "Pemesanan tiket dapat dilakukan dengan cara online booking melalui Aplikasi New Shantika.",
+        "icon": "ticket"
+      },
+      {
+        "title": "Anggaran Terkendali",
+        "description": "New Shantika memberikan harga terbaik untuk perjalanan Anda sehingga dapat menghemat budget.",
+        "icon": "wallet"
+      },
+      {
+        "title": "Staf Profesional",
+        "description": "Staf New Shantika siap melayani dengan ramah, cepat, dan profesional untuk memastikan perjalanan Anda aman dan nyaman.",
+        "icon": "user-gear"
+      },
+      {
+        "title": "Pembayaran Aman",
+        "description": "Pembayaran dapat dilakukan melalui E-Banking atau metode pembayaran lainnya yang telah dipastikan keamanannya.",
+        "icon": "shield-check"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Cerita dari Kursi {passenger}",
+    "passenger": "Penumpang",
+    "items": [
+      {
+        "name": "Prasetyo",
+        "text": "Pengalaman naik bus new Shantika sangat mengesankan. Pelayanan ramah dan juga fasilitas sangat lengkap. Nyaman banget deh.",
+        "rating": 5
+      },
+      {
+        "name": "Prasetyo",
+        "text": "Bakal langganan terus deh sama New Shantika. Order tiketnya mudah dan bisa dilakukan dimana saja. Sangat membantu banget. Sukses selalu New Shantika.",
+        "rating": 5
+      },
+      {
+        "name": "Prasetyo",
+        "text": "Sudah langganan new Shantika dari dulu. Sekarang semakin cinta dengan new Shantika karena semakin mudah memesan tiket melalui aplikasi mobile. Sukses selalu new Shantika",
+        "rating": 5
+      },
+      {
+        "name": "Prasetyo",
+        "text": "Selain armadanya yang keren, fasilitas nya juga lengkap. Jadi nyaman banget selama perjalanan. Terima kasih New Shantika.",
+        "rating": 4
+      }
+    ]
+  },
+  "articlesPage": {
+    "hero": {
+      "title": "Temukan Informasi & Tips Perjalanan Terbaru",
+      "subtitle": "Dapatkan artikel menarik seputar perjalanan, informasi armada, hingga tips hemat dan nyaman bersama New Shantika.",
+      "searchPlaceholder": "Cari Artikel...",
+      "statsCount": "100+",
+      "statsLabel": "Artikel Tersedia",
+      "explore": "Jelajahi Artikel"
+    },
+    "latest": {
+      "badge": "Artikel Terbaru",
+      "title": "Jelajahi Artikel Terbaru untuk Info & Inspirasi Perjalanan Anda"
+    },
+    "grid": {
+      "all": "Semua Artikel",
+      "tips": "Tips & Trik",
+      "fleet": "Armada",
+      "route": "Rute",
+      "sortBy": "Urutkan",
+      "latest": "Terbaru",
+      "paginationInfo": "{start}-{end} dari {total} item",
+      "itemsPerPage": "Item per halaman"
+    },
+    "detail": {
+      "breadcrumbs": {
+        "home": "Beranda",
+        "articles": "Artikel"
+      },
+      "readingTime": "Durasi Baca: {time}",
+      "recommendations": "Rekomendasi Artikel",
+      "seeMore": "Lihat Lebih Banyak"
+    }
+  },
+  "articles": {
+    "title": "Jelajahi Artikel Seputar {highlight} Shantika",
+    "highlight": "Perjalanan & Layanan",
+    "subtitle": "Kumpulan artikel yang menghadirkan informasi, tips, dan berita terbaru untuk Anda.",
+    "cta": "Lihat Lebih Banyak",
+    "items": [
+      {
+        "id": 1,
+        "category": "Tips & Trik",
+        "title": "Tips dan Trik Agar Perjalanan Jarak Jauh dengan Bus Lebih Nyaman",
+        "excerpt": "Perjalanan jarak jauh bisa terasa melelahkan jika tidak dipersiapkan dengan baik. Melalui artikel ini, kami berbagi tips sederhana mulai dari memilih kursi yang tepat...",
+        "date": "1 September 2025",
+        "image": "/images/video.png",
+        "featured": true
+      },
+      {
+        "id": 2,
+        "category": "Armada",
+        "title": "Kenali Keunggulan Armada Bus Shantika Modern",
+        "excerpt": "Armada Shantika dirancang untuk memberikan pengalaman perjalanan terbaik bagi penumpang. Dengan fasilitas...",
+        "date": "1 September 2025",
+        "image": "/images/member.png",
+        "featured": false
+      },
+      {
+        "id": 3,
+        "category": "Rute",
+        "title": "Rute Perjalanan Populer yang Sering Dipilih Penumpang Bus Shantika",
+        "excerpt": "Shantika melayani berbagai rute favorit yang menghubungkan kota-kota besar di...",
+        "date": "1 September 2025",
+        "image": "/images/video.png",
+        "featured": false
+      }
+    ]
+  },
+  "appPromo": {
+    "title": "Semua Kemudahan Perjalanan dalam {highlight}",
+    "highlight": "Satu Aplikasi",
+    "subtitle": "Dari pesan tiket, cek jadwal, hingga layanan pelanggan — semua ada di genggaman Anda.",
+    "features": [
+      "Pesan tiket bisa kapanpun dan dimanapun, langsung dari aplikasi!",
+      "Dapatkan detail terbaru mengenai armada hingga status tiket Anda secara langsung.",
+      "Dengan sekali klik, proses pemesanan tiket menjadi lebih sederhana dan efisien.",
+      "Tim layanan pelanggan selalu siap menjawab pertanyaan dan memberikan solusi terbaik."
+    ]
+  },
+  "agentsPage": {
+    "hero": {
+      "title": "Informasi Agen resmi New Shantika",
+      "subtitle": "Temukan informasi kontak agen bus terpercaya, lengkap dengan nomor telepon, alamat, dan kota sesuai kebutuhan Anda.",
+      "stats": {
+        "passengers": "Penumpang Setiap Tahun",
+        "fleets": "Armada Aktif",
+        "satisfaction": "Tingkat Kepuasan Pelanggan"
+      },
+      "search": {
+        "placeholder": "Cari Agen atau Daerah",
+        "city": "Pilih Kota",
+        "button": "Cari"
+      }
+    },
+    "grid": {
+      "itemInfo": "{start}-{end} dari {total} item",
+      "itemsPerPage": "Item per halaman"
+    }
+  }
+}

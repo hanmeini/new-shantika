@@ -1,0 +1,341 @@
+{
+  "nav": {
+    "home": "Home",
+    "agent": "Agents",
+    "fleet": "Fleet",
+    "article": "Articles",
+    "route": "Routes",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "tagline": "Comfortable & On-Time Journey",
+    "statsCount": "100+",
+    "statsLabel": "Happy Passengers with Shantika",
+    "description": "We provide the best bus fleet with modern facilities, friendly service, and high safety standards. Every journey is designed to give you maximum comfort, making your travel experience more enjoyable and worry-free.",
+    "ctaFleet": "View Fleet",
+    "ctaVideo": "Watch Video"
+  },
+  "article": {
+    "title": "News & Articles",
+    "loading": "Loading articles...",
+    "readMore": "Read More"
+  },
+  "fleet": {
+    "hero": {
+      "badge": "Global Travel Agent",
+      "title": "Comfortable Travel with {highlight}",
+      "highlight": "Our Fleet",
+      "description": "We provide the best bus fleet with modern facilities, friendly service, and high safety standards. Every journey is designed to give you maximum comfort, making your travel experience more enjoyable and worry-free.",
+      "stats": {
+        "provinces": {
+          "label": "National Coverage",
+          "value": "34 Provinces"
+        },
+        "agents": {
+          "label": "Registered New Shantika Agents",
+          "value": "1000+"
+        }
+      },
+      "satisfied": {
+        "count": "100+",
+        "label": "Satisfied Passengers Traveling with Shantika"
+      }
+    },
+    "selection": {
+      "subtitle": "New Shantika Bus"
+    },
+    "title": "Our Fleet",
+    "loading": "Loading fleet...",
+    "capacity": "Capacity",
+    "facilities": "Facilities",
+    "buses": {
+      "sleeper": {
+        "name": "Sleeper Bus",
+        "description": "Double-decker bus with modern design and more spacious room. Offers a different travel sensation with premium comfort for passengers."
+      },
+      "executivetop": {
+        "name": "Executive Top",
+        "description": "Medium-sized fleet with more flexible passenger capacity. Suitable for small group trips with comfort maintained."
+      },
+      "executive": {
+        "name": "Executive",
+        "description": "An economical choice while still prioritizing comfort and travel safety."
+      }
+    },
+    "badge": "100+ Fleets Ready to Serve You",
+    "sections": {
+      "facilities": {
+        "title": "{bus} Facilities"
+      },
+      "additional": {
+        "title": "Additional Information",
+        "content": "New Shantika {bus} is equipped with {capacity} fully reclining seats to provide maximum comfort. Each seat has a USB charger port, personal entertainment screen, as well as clean blankets and pillows. Passengers also get safe snack box and free drinks during the trip. For safety, the bus is equipped with GPS Tracking and CCTV, as well as a spacious storage room for luggage. Estimated travel time Semarang - Jakarta is about 8 hours, making your trip more relaxed and enjoyable."
+      }
+    },
+    "labels": {
+      "rating": "{rating} from 5,000+ passengers",
+      "ratingDesc": "More than 5,000 passengers have chosen New Shantika for a comfortable, safe, and pleasant travel experience.",
+      "price": "Starting from Rp {price}",
+      "priceDesc": "Estimated travel cost based on your chosen route and fleet. Final price depends on availability.",
+      "capacity": "{capacity} Seats",
+      "capacityDesc": "{bus} fleet with {capacity} seats capacity, according to passenger travel comfort standards.",
+      "model": "{model}",
+      "modelDesc": "Modern and well-maintained {model} fleet for maximum comfort."
+    }
+  },
+  "agent": {
+    "title": "Agent List",
+    "loading": "Loading agents...",
+    "operationalHours": "Operational Hours"
+  },
+  "route": {
+    "title": "Travel Routes",
+    "loading": "Loading routes...",
+    "from": "From",
+    "to": "To",
+    "duration": "Duration",
+    "price": "Price",
+    "departure": "Departure Time"
+  },
+  "routesPage": {
+    "hero": {
+      "title": "New Shantika Travel Routes",
+      "subtitle": "Easily find your journey from departure city to your destination",
+      "departure": "Departure",
+      "destination": "Destination",
+      "date": "Select Date",
+      "search": "Search"
+    },
+    "content": {
+      "title": "Travel Routes",
+      "agent": {
+        "title": "Cirebon Agent",
+        "address": "Jl. Tanggul Mas Tim. Raya No.138, Panggung Lor, North Semarang, Semarang City, Central Java 50176",
+        "phone": "098276242625"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "A comfortable and trusted journey with Shantika.",
+    "pages": "Pages",
+    "contact": "Contact",
+    "social": "Social Media",
+    "copyright": "All rights reserved.",
+    "sitemap": "Site Map",
+    "learnMore": "Learn More",
+    "help": "Help",
+    "about": "About Us"
+  },
+  "features": {
+    "title": "Comfort Is Our Priority",
+    "subtitle": "Experience an unforgettable journey with our top-notch facilities.",
+    "list": [
+      {
+        "title": "Comfortable Reclining Seats",
+        "description": "Maximum rest with reclining seats and extra legroom.",
+        "icon": "vibrate"
+      },
+      {
+        "title": "Premium Entertainment System",
+        "description": "Video on Demand and high-quality audio to accompany your trip.",
+        "icon": "monitor"
+      },
+      {
+        "title": "Charging Facilities",
+        "description": "Stay connected at all times with USB charging ports at every seat.",
+        "icon": "battery-charging"
+      },
+      {
+        "title": "Fresh & Cool Air Conditioning",
+        "description": "Regulated air circulation ensures freshness throughout the journey.",
+        "icon": "thermometer-cold"
+      }
+    ]
+  },
+  "about": {
+    "titlePrefix": "Get to Know",
+    "titleHighlight": "Shantika",
+    "titleSuffix": ", Joining Your Journey",
+    "description": "PO. New Shantika was founded in March 2003. The main garage is located in Ngabul, Jepara Regency, Central Java. New Shantika serves several routes such as Jepara-Jakarta with a fleet providing full facilities for passenger comfort.",
+    "features": [
+      {
+        "title": "DVD Player",
+        "description": "Entertainment throughout the journey with a DVD player.",
+        "icon": "disc"
+      },
+      {
+        "title": "Location",
+        "description": "Clear information on departure and destination locations is available.",
+        "icon": "map-pin"
+      },
+      {
+        "title": "AC",
+        "description": "Equipped with AC to maintain passenger comfort.",
+        "icon": "snowflake"
+      },
+      {
+        "title": "Telephone",
+        "description": "Emergency telephone available for urgent needs.",
+        "icon": "phone-call"
+      },
+      {
+        "title": "Power Outlet",
+        "description": "Power outlets available to charge your devices.",
+        "icon": "plug"
+      }
+    ]
+  },
+  "membership": {
+    "title": "Advantages of Becoming a New Shantika {member}",
+    "member": "Member",
+    "subtitle": "Get exclusive service access, best prices, and ease of booking with just one registration.",
+    "cta": "Join New Shantika Membership",
+    "features": [
+      {
+        "title": "Online Booking",
+        "description": "Ticket booking can be done online through the New Shantika Application.",
+        "icon": "ticket"
+      },
+      {
+        "title": "Controlled Budget",
+        "description": "New Shantika provides the best prices for your travel so you can save on your budget.",
+        "icon": "wallet"
+      },
+      {
+        "title": "Professional Staff",
+        "description": "New Shantika staff are ready to serve with friendliness, speed, and professionalism to ensure your journey is safe and comfortable.",
+        "icon": "user-gear"
+      },
+      {
+        "title": "Secure Payment",
+        "description": "Payments can be made via E-Banking or other payment methods whose security has been ensured.",
+        "icon": "shield-check"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Stories from the {passenger} Seat",
+    "passenger": "Passenger",
+    "items": [
+      {
+        "name": "Prasetyo",
+        "text": "The experience of riding a new Shantika bus was very impressive. Friendly service and also very complete facilities. Very comfortable.",
+        "rating": 5
+      },
+      {
+        "name": "Prasetyo",
+        "text": "I will continue to be a regular customer of New Shantika. Ordering tickets is easy and can be done anywhere. It's very helpful. Success always for New Shantika.",
+        "rating": 5
+      },
+      {
+        "name": "Prasetyo",
+        "text": "I've been a regular customer of new Shantika for a long time. Now I love new Shantika even more because it's easier to book tickets through the mobile app. Success always for new Shantika",
+        "rating": 5
+      },
+      {
+        "name": "Prasetyo",
+        "text": "Apart from the cool fleet, the facilities are also complete. So it's very comfortable during the trip. Thank you New Shantika.",
+        "rating": 4
+      }
+    ]
+  },
+  "articlesPage": {
+    "hero": {
+      "title": "Find the Latest Travel Information & Tips",
+      "subtitle": "Get interesting articles about travel, fleet information, to budget tips and comfort with New Shantika.",
+      "searchPlaceholder": "Search Articles...",
+      "statsCount": "100+",
+      "statsLabel": "Articles Available",
+      "explore": "Explore Articles"
+    },
+    "latest": {
+      "badge": "Latest Articles",
+      "title": "Explore Latest Articles for Info & Inspiration for Your Journey"
+    },
+    "grid": {
+      "all": "All Articles",
+      "tips": "Tips & Tricks",
+      "fleet": "Fleet",
+      "route": "Route",
+      "sortBy": "Sort by",
+      "latest": "Latest",
+      "paginationInfo": "{start}-{end} of {total} items",
+      "itemsPerPage": "Items per page"
+    },
+    "detail": {
+      "breadcrumbs": {
+        "home": "Home",
+        "articles": "Articles"
+      },
+      "readingTime": "Reading Duration: {time}",
+      "recommendations": "Recommended Articles",
+      "seeMore": "See More"
+    }
+  },
+  "articles": {
+    "title": "Explore Articles about Shantika {highlight}",
+    "highlight": "Travel & Services",
+    "subtitle": "A collection of articles presenting the latest information, tips, and news for you.",
+    "cta": "See More",
+    "items": [
+      {
+        "id": 1,
+        "category": "Tips & Tricks",
+        "title": "Tips and Tricks for a More Comfortable Long-Distance Bus Trip",
+        "excerpt": "Long-distance travel can feel exhausting if not properly prepared. Through this article, we share simple tips starting from choosing the right seat...",
+        "date": "September 1, 2025",
+        "image": "/images/video.png",
+        "featured": true
+      },
+      {
+        "id": 2,
+        "category": "Fleet",
+        "title": "Recognize the Advantages of Modern Shantika Bus Fleet",
+        "excerpt": "The Shantika fleet is designed to provide the best travel experience for passengers. With facilities...",
+        "date": "September 1, 2025",
+        "image": "/images/member.png",
+        "featured": false
+      },
+      {
+        "id": 3,
+        "category": "Routes",
+        "title": "Popular Travel Routes Often Chosen by Shantika Bus Passengers",
+        "excerpt": "Shantika serves various favorite routes connecting major cities in...",
+        "date": "September 1, 2025",
+        "image": "/images/video.png",
+        "featured": false
+      }
+    ]
+  },
+  "appPromo": {
+    "title": "All the Convenience of Travel in {highlight}",
+    "highlight": "One App",
+    "subtitle": "From booking tickets, checking schedules, to customer service — everything is at your fingertips.",
+    "features": [
+      "Book tickets anytime, anywhere, directly from the app!",
+      "Get the latest details about the fleet and your ticket status directly.",
+      "With just one click, the booking process becomes simpler and more efficient.",
+      "The customer service team is always ready to answer questions and provide the best solutions."
+    ]
+  },
+  "agentsPage": {
+    "hero": {
+      "title": "Official New Shantika Agent Information",
+      "subtitle": "Find trusted bus agent contact information, complete with phone numbers, addresses, and cities to suit your needs.",
+      "stats": {
+        "passengers": "Passengers Every Year",
+        "fleets": "Active Fleets",
+        "satisfaction": "Customer Satisfaction Rate"
+      },
+      "search": {
+        "placeholder": "Search Agent or Region",
+        "city": "Select City",
+        "button": "Search"
+      }
+    },
+    "grid": {
+      "itemInfo": "{start}-{end} of {total} items",
+      "itemsPerPage": "Items per page"
+    }
+  }
+}
