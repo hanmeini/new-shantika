@@ -337,5 +337,17 @@
       "itemInfo": "{start}-{end} dari {total} item",
       "itemsPerPage": "Item per halaman"
     }
+  },
+  "errors": {
+    "404": {
+      "title": "Halaman Tidak Ditemukan",
+      "message": "Maaf, rute yang Anda cari tidak tersedia atau telah dipindahkan ke terminal lain."
+    },
+    "500": {
+      "title": "Gangguan Teknis",
+      "message": "Terjadi kesalahan pada sistem kami. Kami sedang berusaha memperbaikinya segera."
+    },
+    "backHome": "Kembali ke Beranda",
+    "contactSupport": "Hubungi Bantuan"
   }
 }

@@ -2,7 +2,7 @@
 const { id } = defineProps<{ id: string }>()
 const { t } = useI18n()
 const localePath = useLocalePath()
-const { articles, fetchArticleById } = useArticles()
+const { articles, loading, fetchArticleById } = useArticles()
 
 const article = ref<any>(null)
 const recommendations = computed(() => articles.value.filter(a => a.id !== id).slice(0, 3))
@@ -19,7 +19,11 @@ const categoryColors: Record<string, string> = {
 </script>
 
 <template>
-    <div v-if="article" class="w-full flex flex-col justify-start items-start bg-white">
+    <div v-if="loading" class="w-full">
+        <ArticleDetailSkeleton />
+    </div>
+
+    <div v-else-if="article" class="w-full flex flex-col justify-start items-start bg-white">
         <!-- Breadcrumbs -->
         <div class="w-full px-6 md:px-28 py-10 bg-white flex flex-col justify-center items-start gap-12 md:gap-16">
             <nav class="flex flex-wrap items-center gap-2 text-sm font-semibold">
@@ -104,14 +108,13 @@ const categoryColors: Record<string, string> = {
                                     class="text-sm md:text-lg font-bold text-text-dark-primary leading-tight group-hover:text-blue-900 transition-colors line-clamp-2">
                                     {{ item.title }}
                                 </h3>
-                                <p
-                                    class="text-text-dark-secondary text-sm leading-relaxed line-clamp-2">
+                                <p class="text-text-dark-secondary text-sm leading-relaxed line-clamp-2">
                                     {{ item.excerpt }}
                                 </p>
                             </div>
                             <div class="pt-2 md:pt-4">
                                 <span class="text-gray-400 text-[10px] md:text-xs font-medium">{{ item.publishedAt
-                                    }}</span>
+                                }}</span>
                             </div>
                         </div>
                     </NuxtLink>
@@ -126,14 +129,6 @@ const categoryColors: Record<string, string> = {
                     </NuxtLink>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <!-- Loading State -->
-    <div v-else class="w-full h-screen flex items-center justify-center bg-white">
-        <div class="animate-pulse flex flex-col items-center gap-4">
-            <div class="w-12 h-12 rounded-full border-4 border-blue-100 border-t-blue-600 animate-spin"></div>
-            <p class="text-text-dark-secondary font-medium">Beban Artikel...</p>
         </div>
     </div>
 </template>

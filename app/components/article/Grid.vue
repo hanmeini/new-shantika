@@ -1,6 +1,10 @@
 <script setup lang="ts">
 const { t } = useI18n()
-const { articles } = useArticles()
+const { articles, loading, fetchArticles } = useArticles()
+
+onMounted(() => {
+    fetchArticles()
+})
 
 const categories = ['Semua Artikel', 'Tips & Trik', 'Armada', 'Rute']
 const selectedCategory = ref('Semua Artikel')
@@ -81,8 +85,14 @@ const categoryColors: Record<string, string> = {
                 </div>
             </div>
 
+            <!-- Loading State -->
+            <div v-if="loading" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+                <ArticleSkeleton v-for="i in itemsPerPage" :key="i" />
+            </div>
+
             <!-- Articles Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16 min-h-[400px]">
+            <div v-else-if="paginatedArticles.length"
+                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16 min-h-[400px]">
                 <NuxtLink v-for="item in paginatedArticles" :key="item.id" :to="$localePath(`/artikel/${item.id}`)"
                     class="bg-white rounded-[20px] p-3 border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-500 cursor-pointer group flex flex-col h-full">
                     <div class="w-full h-64 md:h-72 overflow-hidden rounded-xl mb-6">

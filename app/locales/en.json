@@ -337,5 +337,17 @@
       "itemInfo": "{start}-{end} of {total} items",
       "itemsPerPage": "Items per page"
     }
+  },
+  "errors": {
+    "404": {
+      "title": "Page Not Found",
+      "message": "Sorry, the route you are looking for is unavailable or has been moved to another terminal."
+    },
+    "500": {
+      "title": "Technical Issues",
+      "message": "There was an error in our system. We are working on fixing it shortly."
+    },
+    "backHome": "Back to Home",
+    "contactSupport": "Contact Support"
   }
 }

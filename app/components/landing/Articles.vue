@@ -1,6 +1,10 @@
 <script setup lang="ts">
 const { t } = useI18n()
-const { articles } = useArticles()
+const { articles, loading, fetchArticles } = useArticles()
+
+onMounted(() => {
+    fetchArticles()
+})
 
 // Adjust dummy data to identify featured and secondary
 const featuredArticle = computed(() => articles.value.find((_, index) => index === 0))
@@ -42,33 +46,52 @@ const categoryColors: Record<string, string> = {
 
                     <!-- Secondary Articles (Desktop) -->
                     <div class="hidden lg:flex flex-col gap-6">
-                        <div v-for="item in secondaryArticles" :key="item.id"
-                            class="flex gap-6 p-4 rounded-xl border border-gray-100 hover:shadow-lg transition-all duration-300 group cursor-pointer">
-                            <div class="w-40 h-40 flex-shrink-0 overflow-hidden rounded-xl">
-                                <NuxtImg :src="item.thumbnail"
-                                    class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                                    format="webp" />
-                            </div>
-                            <div class="flex flex-col justify-center py-1">
-                                <span class="self-start px-3 py-1 rounded-full text-[10px] font-bold text-white mb-2"
-                                    :class="categoryColors[item.category] || 'bg-gray-400'">
-                                    {{ item.category }}
-                                </span>
-                                <h4 class="font-bold text-[#0A1131] text-base mb-1 line-clamp-2 leading-snug">
-                                    {{ item.title }}
-                                </h4>
-                                <p class="text-gray-500 text-xs mb-2 line-clamp-2 leading-relaxed">
-                                    {{ item.excerpt }}
-                                </p>
-                                <p class="text-gray-400 text-[10px]">{{ item.publishedAt }}</p>
+                        <!-- Loading State -->
+                        <div v-if="loading" class="space-y-6">
+                            <div v-for="i in 2" :key="i" class="flex gap-6 p-4 rounded-xl border border-gray-100 h-48">
+                                <BaseSkeleton height="100%" width="160px" rounded="12px" />
+                                <div class="flex-1 py-1 space-y-3">
+                                    <BaseSkeleton height="12px" width="60px" />
+                                    <BaseSkeleton height="24px" width="100%" />
+                                    <BaseSkeleton height="40px" width="100%" />
+                                    <BaseSkeleton height="12px" width="80px" />
+                                </div>
                             </div>
                         </div>
+                        <template v-else>
+                            <div v-for="item in secondaryArticles" :key="item.id"
+                                class="flex gap-6 p-4 rounded-xl border border-gray-100 hover:shadow-lg transition-all duration-300 group cursor-pointer">
+                                <div class="w-40 h-40 flex-shrink-0 overflow-hidden rounded-xl">
+                                    <NuxtImg :src="item.thumbnail"
+                                        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                                        format="webp" />
+                                </div>
+                                <div class="flex flex-col justify-center py-1">
+                                    <span
+                                        class="self-start px-3 py-1 rounded-full text-[10px] font-bold text-white mb-2"
+                                        :class="categoryColors[item.category] || 'bg-gray-400'">
+                                        {{ item.category }}
+                                    </span>
+                                    <h4 class="font-bold text-[#0A1131] text-base mb-1 line-clamp-2 leading-snug">
+                                        {{ item.title }}
+                                    </h4>
+                                    <p class="text-gray-500 text-xs mb-2 line-clamp-2 leading-relaxed">
+                                        {{ item.excerpt }}
+                                    </p>
+                                    <p class="text-gray-400 text-[10px]">{{ item.publishedAt }}</p>
+                                </div>
+                            </div>
+                        </template>
                     </div>
                 </div>
 
                 <!-- Right: Featured Article -->
                 <div class="w-full lg:w-[45%]">
-                    <div v-if="featuredArticle" class="h-full">
+                    <!-- Loading State -->
+                    <div v-if="loading" class="h-full">
+                        <ArticleSkeleton />
+                    </div>
+                    <div v-else-if="featuredArticle" class="h-full">
                         <div
                             class="bg-white rounded-xl border border-gray-100 p-3 flex flex-col group cursor-pointer shadow-sm hover:shadow-xl transition-all duration-500 h-full">
                             <div class="w-full h-[280px] md:h-[400px] flex justify-center mb-4">
@@ -99,7 +122,7 @@ const categoryColors: Record<string, string> = {
                 </div>
 
                 <!-- Secondary Articles (Mobile) -->
-                <div class="flex flex-col lg:hidden gap-6">
+                <div v-if="!loading" class="flex flex-col lg:hidden gap-6">
                     <div v-for="item in secondaryArticles" :key="item.id"
                         class="flex gap-4 p-3 rounded-3xl border border-gray-100 shadow-sm">
                         <div class="w-24 h-24 md:w-32 md:h-32 flex-shrink-0 overflow-hidden rounded-2xl">

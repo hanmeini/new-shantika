@@ -163,15 +163,20 @@ const facilityImages: Record<string, string> = {
                 </div>
             </div>
 
+            <!-- Loading State -->
+            <div v-if="loading && !buses.length" class="py-20">
+                <ArmadaSkeleton />
+            </div>
+
             <!-- Active Fleet Details Content -->
-            <Transition name="slide-fade" mode="out-in">
+            <Transition v-else name="slide-fade" mode="out-in">
                 <div :key="activeBusId" class="space-y-20 pb-10">
                     <!-- Header: Badge & Title -->
                     <div class="flex flex-col items-center text-center gap-6 px-6 md:px-0">
                         <div
                             class="px-4 py-2 bg-white rounded-[10px] shadow-sm border border-gray-100 inline-flex items-center gap-2">
                             <span class="text-bg-fill-primary text-sm font-semibold tracking-wide">{{ t('fleet.badge')
-                                }}</span>
+                            }}</span>
                         </div>
                         <div class="space-y-4">
                             <h2 class="text-4xl font-extrabold text-[#1A1A1A] tracking-tight">

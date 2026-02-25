@@ -6,7 +6,7 @@ const props = defineProps<{
     searchParams: { query: string; city: string }
 }>()
 
-const { fetchAgents, searchAgents } = useAgents()
+const { fetchAgents, searchAgents, loading } = useAgents()
 const agents = ref<any[]>([])
 const filteredAgents = computed(() => searchAgents(props.searchParams.query, props.searchParams.city))
 
@@ -105,8 +105,13 @@ const getRegion = (city: string) => {
 
 <template>
     <section class="w-full px-6 md:px-28 py-20 bg-[#FAFAFA] flex flex-col gap-12">
+        <!-- Loading State -->
+        <div v-if="loading" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+            <AgentSkeleton v-for="i in itemsPerPage" :key="i" />
+        </div>
+
         <!-- Agent Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+        <div v-else-if="paginatedAgents.length" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
             <div v-for="agent in paginatedAgents" :key="agent.id" @click="openAgentDetail(agent)"
                 class="bg-white rounded-[20px] shadow-sm border border-gray-100 overflow-hidden flex flex-row md:flex-col transition-all hover:shadow-xl group cursor-pointer h-auto md:h-full">
                 <!-- Image Section -->

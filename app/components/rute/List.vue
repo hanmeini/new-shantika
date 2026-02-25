@@ -61,9 +61,8 @@ onMounted(() => {
 
                     <!-- Cards -->
                     <div class="space-y-4 md:space-y-6">
-                        <template v-if="loading">
-                            <div v-for="i in 3" :key="i" class="w-full h-40 bg-gray-50 animate-pulse rounded-[2.5rem]">
-                            </div>
+                        <template v-if="loading && !filteredRoutes.length">
+                            <RuteSkeleton />
                         </template>
 
                         <template v-else>
