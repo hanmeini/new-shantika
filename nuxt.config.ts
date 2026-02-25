@@ -17,7 +17,11 @@ export default defineNuxtConfig({
         { name: 'description', content: 'Solusi perjalanan bus terpercaya dengan fasilitas lengkap dan pelayanan profesional.' },
         { property: 'og:title', content: 'New Shantika - Solusi Perjalanan Terpercaya' },
         { property: 'og:description', content: 'Pesan tiket bus New Shantika dengan mudah. Fasilitas lengkap, rute beragam, dan kenyamanan terjamin.' },
-        { property: 'og:image', content: '/images/New Shantika Logo.png' },
+        { property: 'og:image', content: '/images/rutehero.png' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:title', content: 'New Shantika - Solusi Perjalanan Terpercaya' },
+        { name: 'twitter:description', content: 'Pesan tiket bus New Shantika dengan mudah. Fasilitas lengkap, rute beragam, dan kenyamanan terjamin.' },
+        { name: 'twitter:image', content: '/images/rutehero.png' },
         { name: 'format-detection', content: 'telephone=no' }
       ],
       link: [
