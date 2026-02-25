@@ -8,6 +8,23 @@ export default defineNuxtConfig({
     '@nuxt/image',
   ],
   css: ['~/assets/css/main.css'],
+  app: {
+    head: {
+      title: 'New Shantika - Kenyamanan Perjalanan Anda',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'description', content: 'Solusi perjalanan bus terpercaya dengan fasilitas lengkap dan pelayanan profesional.' },
+        { property: 'og:title', content: 'New Shantika - Solusi Perjalanan Terpercaya' },
+        { property: 'og:description', content: 'Pesan tiket bus New Shantika dengan mudah. Fasilitas lengkap, rute beragam, dan kenyamanan terjamin.' },
+        { property: 'og:image', content: '/images/New Shantika Logo.png' },
+        { name: 'format-detection', content: 'telephone=no' }
+      ],
+      link: [
+        { rel: 'icon', type: 'image/png', href: '/images/New Shantika Logo.png' }
+      ]
+    }
+  },
   devtools: { enabled: true },
 
   image: {
