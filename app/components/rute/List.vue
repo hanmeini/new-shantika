@@ -43,12 +43,13 @@ onMounted(() => {
                 <h2 class="text-2xl md:text-4xl font-bold text-[#111847]">Rute Perjalanan</h2>
 
                 <!-- Tabs -->
-                <div class="inline-flex p-1 md:p-1.5 bg-gray-100/50 rounded-xl gap-1 items-center">
+                <div
+                    class="flex overflow-x-auto no-scrollbar p-1.5 md:p-2 bg-gray-100/50 rounded-2xl gap-2 items-center w-full md:w-auto">
                     <button v-for="cls in classes" :key="cls" @click="selectedClass = cls"
-                        class="px-4 md:px-6 py-1.5 md:py-2 rounded-lg text-[10px] md:text-sm font-bold transition-all whitespace-nowrap"
+                        class="px-6 md:px-8 py-2.5 md:py-3.5 rounded-xl text-xs md:text-base font-bold transition-all whitespace-nowrap shrink-0"
                         :class="selectedClass === cls
-                            ? 'bg-white text-[#111847] shadow-[0_4px_12px_rgba(0,0,0,0.05)] border border-gray-200/50'
-                            : 'text-gray-400 hover:text-gray-600'">
+                            ? 'bg-white text-[#111847] shadow-[0_8px_20px_rgba(0,0,0,0.08)] border border-gray-200/50 scale-105 z-10'
+                            : 'text-gray-400 hover:text-gray-600 hover:bg-white/50'">
                         {{ cls }}
                     </button>
                 </div>
